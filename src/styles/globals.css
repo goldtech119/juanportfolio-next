@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply outline-dashed outline-1 outline-primary/20;
+  }
+  .v2 * {
+    @apply outline-none;
+  }
+
+  html,
+  body {
+    @apply scroll-smooth bg-base-100 text-base-content;
+    background-image: radial-gradient(
+      circle at 50% 50%,
+      #37d8dd30 0,
+      #4d88f730 1px,
+      rgb(19, 23, 46) 2px
+    );
+    background-position: 20px 0, 20px 0, 0 0, 0 0;
+    /* background-position: 0 0; */
+    background-size: 15px 15px;
+    background-repeat: repeat;
+    scroll-padding-top: 128px;
+  }
+  .layout {
+    @apply mx-auto w-11/12 max-w-[90rem];
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #749ce7;
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+}
+.layout {
+  @apply mx-auto w-11/12 max-w-[90rem];
+}
+.hoverBox:hover {
+  @apply text-base-100;
+}
+
+.hoverBox:hover + .popBox {
+  @apply h-full w-full;
+  /* background-color: #010b28; */
+}

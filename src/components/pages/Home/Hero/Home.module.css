@@ -1,0 +1,10 @@
+.arc_1 {
+  @apply -left-[5%] -top-[5%] h-[110%] w-[110%] border-2 border-r-base-content before:top-7 before:right-7 after:bottom-7 after:right-7 lg:before:top-10 lg:before:right-10 lg:after:bottom-10 lg:after:right-10;
+}
+.arc_2 {
+  @apply -left-[10%] -top-[10%] h-[120%] w-[120%] border-2 border-l-base-content before:top-9 before:left-7 after:bottom-9 after:left-7 lg:before:top-10 lg:before:left-11 lg:after:bottom-10 lg:after:left-11;
+}
+.arc_3 {
+  @apply -left-[15%] -top-[15%] h-[130%] w-[130%] border-2 border-t-base-content border-l-base-content before:left-8 before:bottom-9 after:right-8 after:top-9 lg:before:left-12 lg:before:bottom-11 lg:after:right-12 lg:after:top-11;
+}
+ 

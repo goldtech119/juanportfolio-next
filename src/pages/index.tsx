@@ -18,20 +18,19 @@ const HomePage = () => {
 
         <div className="max-w-2xl text-center lg:text-left">
           <h1 className="text-white font-normal text-xl font-['Iceland'] uppercase">
-            Welcome to by personal website.
+            Welcome to my Portfolio.
           </h1>
           <p className="mt-10 text-white font-normal text-xl font-['Iceland'] uppercase">
-            I have created this website to feel like a game/sci-fi interface.
+            I have created this website for me.
             <br />
             <br />
-            You will find ‘achievements’ or ‘quests’ that show the progress in
-            my professional life and are related to what I am working on.
+            Here's how can I help your business and make it successful.
           </p>
           <Link
             href="/portfolio"
             className="px-8 relative group text-2xl uppercase font-bold py-4 mt-16 border border-primary font-['Big Shoulders Display'] text-primary hover:text-white w-max block mx-auto lg:mx-0"
           >
-            <span className="relative z-20">Enter My System</span>
+            <span className="relative z-20">My Portfolio</span>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-0 h-0 rounded-full group-hover:rounded-none group-hover:w-full group-hover:h-full z-10 bg-primary transition-all "></div>
           </Link>
         </div>

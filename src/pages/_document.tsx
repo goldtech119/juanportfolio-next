@@ -12,7 +12,7 @@ class MyDocument extends Document {
 
           <meta
             name="description"
-            content="I am Juan David Sanchez Rodriquez. Senior Full Stack developer Based in Serbia. Tech Stack are React, Next.js, Python, CMS WordPress, WooCommerce, TS, Tailwindcss, Scss."
+            content="I am Juan David Sanchez Rodriquez. Senior Full Stack developer Based in Colombia. Tech Stack are React, Next.js, Python, CMS WordPress, WooCommerce, TS, Tailwindcss, Scss."
           />
 
           <meta name="author" content="Juan Sanchez" />
@@ -29,7 +29,7 @@ class MyDocument extends Document {
             property="og:title"
             content="Juan Sanchez"
           />
-          <meta property="og:image" content="/Home.png" />
+          <meta property="og:image" content="/Homepage.png" />
 
           <meta name="theme-color" content="#111119" />
 
